@@ -65,7 +65,7 @@ jobs:
 
     - name: Generating Makefiles
 
-      shell: bash
+     shell: bash
 
       run: |
 
