@@ -60,14 +60,14 @@ jobs:
 
       RUNNER_OS: ${{ runner.os }}
 
-        run: |
-              if [[ "$RUNNER_OS" == "Linux" ]] ; then
+      run: |
+            if [[ "$RUNNER_OS" == "Linux" ]] ; then
 
-          sudo apt-get update -qq
+              sudo apt-get update -qq
 
-          sudo apt-get install -y \
+              sudo apt-get install -y \
 
-            libx11-dev libxcursor-dev libxi-dev
+                libx11-dev libxcursor-dev libxi-dev
 
         fi
 
